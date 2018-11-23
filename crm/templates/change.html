@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3" style="margin-left: 100px;margin-top: 15px;">
+                <form class="form-horizontal" method="post" novalidate>
+                    {% csrf_token %}
+                    {% for feild in form %}
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">{{ feild.label }}</label>
+                            <div class="col-sm-10">
+                                {{ feild }}
+                                <span style="color: red;">{{ feild.errors.0 }}</span>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <input type="submit" class="btn btn-primary" value="提 交">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

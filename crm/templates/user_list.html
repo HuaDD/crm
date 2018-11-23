@@ -1,0 +1,104 @@
+{% extends 'layout.html' %}
+{% load rbac %}
+{% block content %}
+    {% if request|has_button:'user_add'%}
+        <div>
+            <a href="{% url 'crm:user_add' %}" class="btn btn-primary" style="margin: 15px;"><span class="icon-wrap"><i class="fa fa-plus-circle" aria-hidden="true"></i></span> 添加</a>
+        </div>
+    {% endif %}
+
+    <div class="panel-body">
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>ID</th>
+                    <th>用户名</th>
+                    <th>密码</th>
+                    <th>邮箱</th>
+                    <th>手机号</th>
+                    <th>性别</th>
+                    <th>部门</th>
+                    {% if request|has_button:'user_edit' or request|has_button:'user_del' %}
+                        <th>操作</th>
+                    {% endif %}
+                    
+
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for user in user_list %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ user.id }}</td>
+                        <td>{{ user.username }}</td>
+                        <td>{{ user.password }}</td>
+                        <td>{{ user.email }}</td>
+                        <td>{{ user.phone }}</td>
+                        <td>{{ user.get_gender_display }}</td>
+                        <td>{{ user.depart.title }}</td>
+                        
+                        {% if request|has_button:'user_edit' or request|has_button:'user_del' %}
+                        
+                            <td>
+                                {% if request|has_button:'user_edit' %}
+                                     <a href="{% url 'crm:user_edit' user.id %}" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>编辑</a>
+                                {% endif %}
+                                |
+                                {% if request|has_button:'user_del' %}
+                                    <button class="btn btn-danger del" ><i class="fa fa-trash-o" aria-hidden="true"></i> 删除</button>
+                                {% endif %}
+                            </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <nav aria-label="Page navigation" style="text-align: center">
+    <ul class="pagination">
+        {{ page_info.pager|safe }}
+    </ul>
+    </nav>
+{% endblock %}
+
+{% block current %}
+    <li class="active">用户管理</li>
+{% endblock %}
+
+{% block script %}
+    <script>
+    $('.del').on('click',function () {
+        var $trEle = $(this).parent().parent();
+        console.log($trEle);
+        var id = $trEle.children().eq(1).text();
+        console.log(id);
+        swal({
+            title: "你确定要删除这条数据吗?",
+            text: "数据删除后将无法恢复！",
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonClass: "btn-danger",
+            confirmButtonText: "确定",
+            cancelButtonText: "取消",
+            closeOnConfirm: false
+        },
+        function () {
+            $.ajax({
+                url:'{% url 'crm:user_del' %}',
+                type: 'get',
+                data:{'id':id},
+                success:function (arg) {
+                    swal(arg,'您选择的数据已被删除',"success");
+                    $trEle.remove();
+                }
+            })
+        })
+    })
+    </script>
+{% endblock %}
