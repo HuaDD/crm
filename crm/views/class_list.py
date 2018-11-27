@@ -4,6 +4,7 @@
 from crm import models
 from utils.pagers import Page_Info
 from crm.forms.class_form import ClassModelForm
+from utils.memory_revers import memory_url
 from django.shortcuts import render,redirect,reverse,HttpResponse
 from django.contrib.auth.decorators import login_required
 
@@ -47,7 +48,7 @@ def class_edit(request,nid):
         form = ClassModelForm(data=request.POST,instance=class_obj)
         if form.is_valid():
             form.save()
-            return redirect(reverse('crm:class_list'))
+            return redirect(memory_url(request,'crm:class_list'))
 
     return render(request,'change.html',{'form':form})
 

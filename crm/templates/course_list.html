@@ -1,5 +1,6 @@
 {% extends 'layout.html' %}
 {% load rbac %}
+{% load current_page %}
 {% block content %}
     {% if request|has_button:'course_add' %}
         <div>
@@ -29,7 +30,7 @@
                         {% if request|has_button:'course_edit' or request|has_button:'course_del' %}
                              <td>
                                  {% if request|has_button:'course_edit' %}
-                                    <a href="{% url 'crm:course_edit' course.id %}" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>编辑</a>
+                                    <a href="{% memory_url request 'crm:course_edit' course.id %}" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>编辑</a>
                                   {% endif %}
                                  |
                                 {% if request|has_button:'course_del' %}

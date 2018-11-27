@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="55ff2ad8-c918-4833-ac70-7ced68d88128">
+    <data-source source="LOCAL" name="db" uuid="b6cc5eef-0932-42d0-9459-c0696adbe551">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>SQLite</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\admin\PycharmProjects\crm_demo\db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:F:\python程序\crm_以及菜单\crm\db.sqlite3</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>

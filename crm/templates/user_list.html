@@ -1,5 +1,6 @@
 {% extends 'layout.html' %}
 {% load rbac %}
+{% load current_page %}
 {% block content %}
     {% if request|has_button:'user_add'%}
         <div>
@@ -44,7 +45,7 @@
                         
                             <td>
                                 {% if request|has_button:'user_edit' %}
-                                     <a href="{% url 'crm:user_edit' user.id %}" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>编辑</a>
+                                     <a href="{% memory_url request 'crm:user_edit' user.id %}" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>编辑</a>
                                 {% endif %}
                                 |
                                 {% if request|has_button:'user_del' %}

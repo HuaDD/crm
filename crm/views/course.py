@@ -4,6 +4,7 @@
 from crm import models
 from utils.pagers import Page_Info
 from crm.forms.course_form import CourseModelForm
+from utils.memory_revers import memory_url
 from django.shortcuts import render,reverse,redirect,HttpResponse
 from django.contrib.auth.decorators import login_required
 
@@ -45,7 +46,7 @@ def course_edit(request,nid):
         form = CourseModelForm(data=request.POST,instance=course_obj)
         if form.is_valid():
             form.save()
-            return redirect(reverse('crm:course_list'))
+            return redirect(memory_url(request,'crm:course_list'))
     return render(request,'change.html',{'form':form})
 
 

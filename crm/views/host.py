@@ -3,6 +3,7 @@
 from crm import models
 from utils.pagers import Page_Info
 from crm.forms.host_form import HostModelForm
+from utils.memory_revers import memory_url
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import HttpResponse,render,reverse,redirect
 
@@ -44,7 +45,7 @@ def host_edit(request,hid):
         form = HostModelForm(data=request.POST,instance=host_obj)
         if form.is_valid():
             form.save()
-            return redirect(reverse('crm:host_list'))
+            return redirect(memory_url(request,'crm:host_list'))
     return render(request,'change.html',{'form':form})
 
 def host_del(request):
