@@ -1,6 +1,18 @@
 from django.db import models
 
 # Create your models here.
+
+class Menu(models.Model):
+
+    """
+    父菜单表
+    """
+    title = models.CharField(verbose_name='菜单',max_length=64)
+    icon = models.CharField(verbose_name='图标',max_length=64,null=True)
+
+    def __str__(self):
+        return self.title
+
 class Permissions(models.Model):
     """
     权限表
@@ -9,7 +21,8 @@ class Permissions(models.Model):
     url = models.CharField(verbose_name='URL',max_length=256)
     alias_url = models.CharField(verbose_name='URL别名',max_length=64,unique=True)
     icon = models.CharField(verbose_name='图标',max_length=64,null=True)
-    is_menu = models.BooleanField(verbose_name='是否是菜单')
+    menu = models.ForeignKey(verbose_name='菜单',to='Menu',null=True,blank=True)
+    parent = models.ForeignKey(verbose_name='父权限',to='Permissions',null=True,blank=True)
 
     def __str__(self):
         return self.title

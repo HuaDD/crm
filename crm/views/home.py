@@ -24,7 +24,7 @@ def login(request):
 
             # 调用rbac中的权限信息初始化函数
             init_permission(user,request)
-            permission_dict = request.session.get(settings.RBAC_SESSION_PERMISSION_KEY)
+            request.session.get(settings.RBAC_SESSION_PERMISSION_KEY)
             if user:
                 # 登录成功执行
                 auth.login(request, user)

@@ -149,3 +149,9 @@ RBAC_SESSION_PERMISSION_KEY = 'qwrd9asvfsmgrlekza'
 
 # 菜单生成session_key
 RBAC_SESSION_MENU_KEY = 'meun_key'
+
+# 父权限key
+RBAC_CURRENT_PARENT_KEY = 'dadcjxioweqcs'
+
+# 导航条
+RBAC_RBCORD_LIST = 'dosoxnrwyxjvmeq'
