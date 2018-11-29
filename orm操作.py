@@ -15,10 +15,14 @@ from  crm import models
 # host = models.Host.objects.filter(id=1).first()
 # print(host)
 
-user_list = []
-for i in range(1,50):
-    user_list.append(models.Course(title='course%s' %i))
+# user_list = []
+# for i in range(1,50):
+#     user_list.append(models.Course(title='course%s' %i))
 #
 # models.Derartment.objects.bulk_create(user_list,10)
-models.Course.objects.bulk_create(user_list,10)
+ret = models.Course.objects.filter(id=10).first()
+print(ret.__dict__)
+# print(dir(ret))
+
+
 # models.Derartment.objects.create(title='depart1')

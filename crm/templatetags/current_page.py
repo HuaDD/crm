@@ -15,3 +15,6 @@ def memory_url(request,alias_url,*args,**kwargs):
     new_query_dict['filter'] = request.GET.urlencode()
     url = '%s?%s' %(base_url,new_query_dict.urlencode())
     return url
+
+
+

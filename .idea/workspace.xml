@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f00ec8a4-874b-45ff-a7b7-c9021eb19d79" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/55ff2ad8-c918-4833-ac70-7ced68d88128.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/b6cc5eef-0932-42d0-9459-c0696adbe551/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/b6cc5eef-0932-42d0-9459-c0696adbe551/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/b6cc5eef-0932-42d0-9459-c0696adbe551/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/b6cc5eef-0932-42d0-9459-c0696adbe551/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/b6cc5eef-0932-42d0-9459-c0696adbe551.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/b6cc5eef-0932-42d0-9459-c0696adbe551.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/templates/class_list.html" afterPath="$PROJECT_DIR$/crm/templates/class_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/templates/course_list.html" afterPath="$PROJECT_DIR$/crm/templates/course_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/templates/depart_list.html" afterPath="$PROJECT_DIR$/crm/templates/depart_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/templates/host_list.html" afterPath="$PROJECT_DIR$/crm/templates/host_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/templates/layout.html" afterPath="$PROJECT_DIR$/crm/templates/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/templates/user_list.html" afterPath="$PROJECT_DIR$/crm/templates/user_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/views/home.py" afterPath="$PROJECT_DIR$/crm/views/home.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm_demo/settings.py" afterPath="$PROJECT_DIR$/crm_demo/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbac/middleware/rbac.py" afterPath="$PROJECT_DIR$/rbac/middleware/rbac.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/admin.py" afterPath="$PROJECT_DIR$/crm/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crm/templatetags/current_page.py" afterPath="$PROJECT_DIR$/crm/templatetags/current_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orm操作.py" afterPath="$PROJECT_DIR$/orm操作.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbac/admin.py" afterPath="$PROJECT_DIR$/rbac/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbac/models.py" afterPath="$PROJECT_DIR$/rbac/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbac/service/permission.py" afterPath="$PROJECT_DIR$/rbac/service/permission.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbac/templates/rbac/auto_menu.html" afterPath="$PROJECT_DIR$/rbac/templates/rbac/auto_menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbac/templatetags/rbac.py" afterPath="$PROJECT_DIR$/rbac/templatetags/rbac.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/crm$orm.coverage" NAME="orm操作 Coverage Results" MODIFIED="1543303608973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/crm$orm.coverage" NAME="orm操作 Coverage Results" MODIFIED="1543464380998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/crm_demo$orm.coverage" NAME="orm操作 Coverage Results" MODIFIED="1542785784732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -71,7 +58,30 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crm/views/home.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crm/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,27 +115,21 @@
         <option value="$PROJECT_DIR$/crm/forms/class_form.py" />
         <option value="$PROJECT_DIR$/crm/forms/user_form.py" />
         <option value="$PROJECT_DIR$/crm_demo/urls.py" />
-        <option value="$PROJECT_DIR$/crm/admin.py" />
-        <option value="$PROJECT_DIR$/rbac/admin.py" />
         <option value="$PROJECT_DIR$/crm/forms/login_forms.py" />
         <option value="$PROJECT_DIR$/crm/templates/login.html" />
         <option value="$PROJECT_DIR$/crm/views/user.py" />
-        <option value="$PROJECT_DIR$/crm/models.py" />
         <option value="$PROJECT_DIR$/crm/forms/host_form.py" />
         <option value="$PROJECT_DIR$/crm/urls.py" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/crm/templatetags/current_page.py" />
         <option value="$PROJECT_DIR$/utils/memory_url.py" />
         <option value="$PROJECT_DIR$/crm/views/host.py" />
         <option value="$PROJECT_DIR$/crm/views/course.py" />
         <option value="$PROJECT_DIR$/crm/views/class_list.py" />
         <option value="$PROJECT_DIR$/crm/views/depart.py" />
-        <option value="$PROJECT_DIR$/orm操作.py" />
         <option value="$PROJECT_DIR$/crm/static/css/menu.css" />
         <option value="$PROJECT_DIR$/crm/views/home.py" />
         <option value="$PROJECT_DIR$/crm/static/js/menu.js" />
         <option value="$PROJECT_DIR$/rbac/templates/rbac/auto_menu.html" />
-        <option value="$PROJECT_DIR$/rbac/models.py" />
         <option value="$PROJECT_DIR$/crm/templates/depart_list.html" />
         <option value="$PROJECT_DIR$/crm/templates/host_list.html" />
         <option value="$PROJECT_DIR$/crm/templates/user_list.html" />
@@ -137,6 +141,13 @@
         <option value="$PROJECT_DIR$/rbac/templatetags/rbac.py" />
         <option value="$PROJECT_DIR$/rbac/service/permission.py" />
         <option value="$PROJECT_DIR$/rbac/middleware/rbac.py" />
+        <option value="$PROJECT_DIR$/crm/models.py" />
+        <option value="$PROJECT_DIR$/orm操作.py" />
+        <option value="$PROJECT_DIR$/rbac/models.py" />
+        <option value="$PROJECT_DIR$/crm/admin.py" />
+        <option value="$PROJECT_DIR$/rbac/admin.py" />
+        <option value="$PROJECT_DIR$/../../文件转存点/22期/s22-24权限进阶/s22day24/rbac/readme" />
+        <option value="$PROJECT_DIR$/crm/templatetags/current_page.py" />
       </list>
     </option>
   </component>
@@ -191,7 +202,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rbac" />
+              <option name="myItemId" value="crm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,11 +216,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rbac" />
+              <option name="myItemId" value="crm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templatetags" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -228,17 +239,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python程序\crm_以及菜单\crm\rbac\static" />
+      <recent name="F:\python程序\crm_以及菜单\crm\rbac\templates" />
+      <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm\static\imgs" />
+      <recent name="C:\Users\admin\PycharmProjects\crm_demo\utils" />
+      <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm\static\plugins" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\PycharmProjects\crm_demo\rbac" />
       <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm\static\imgs" />
       <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm\views" />
-      <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm\static\imgs" />
-      <recent name="C:\Users\admin\PycharmProjects\crm_demo\utils" />
-      <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm\static\plugins" />
-      <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm\templates" />
       <recent name="C:\Users\admin\PycharmProjects\crm_demo\crm" />
     </key>
   </component>
@@ -505,14 +516,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14102565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14102565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30326086" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13995726" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1570338" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14155982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30098146" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29116684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -560,114 +571,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crm/forms/class_form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/forms/base_form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4aed2bde/55ff2ad8-c918-4833-ac70-7ced68d88128/main.rbac_permissions" />
-    <entry file="file://$PROJECT_DIR$/crm/forms/depart_form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/forms/host_form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4aed2bde/55ff2ad8-c918-4833-ac70-7ced68d88128/main.crm_userinfo" />
-    <entry file="file://$PROJECT_DIR$/crm/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4aed2bde/55ff2ad8-c918-4833-ac70-7ced68d88128/main.crm_host" />
-    <entry file="file://$PROJECT_DIR$/crm_demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/forms/login_forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/93ec86f5/55ff2ad8-c918-4833-ac70-7ced68d88128/main.rbac_permissions" />
-    <entry file="file://F:/python/Lib/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/python/Lib/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="589" column="0" lean-forward="false" selection-start-line="589" selection-start-column="0" selection-end-line="589" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/93ec86f5/55ff2ad8-c918-4833-ac70-7ced68d88128/main.crm_derartment" />
-    <entry file="dbDummy://dbtable:/93ec86f5/b6cc5eef-0932-42d0-9459-c0696adbe551/main.crm_derartment">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/templatetags/current_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/memory_revers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crm/views/course.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
@@ -699,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orm操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -731,6 +627,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1431">
           <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#22#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -738,25 +637,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/93ec86f5/b6cc5eef-0932-42d0-9459-c0696adbe551/main.rbac_menu">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/views/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="88" />
+          <folding>
+            <element signature="e#44#66#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -776,13 +659,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rbac/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -826,20 +702,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/templates/user_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rbac/service/permission.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
           <folding>
-            <element signature="e#44#79#0" expanded="true" />
+            <element signature="e#44#79#0" expanded="false" />
             <element signature="e#618#848#1" expanded="false" />
             <element signature="e#2356#3027#1" expanded="false" />
           </folding>
@@ -870,14 +738,6 @@
             <element signature="e#44#53#0" expanded="true" />
             <element signature="e#281#962#1" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm_demo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,6 +796,226 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/static/rbac/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orm操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/93ec86f5/b6cc5eef-0932-42d0-9459-c0696adbe551/main.rbac_menu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/93ec86f5/b6cc5eef-0932-42d0-9459-c0696adbe551/main.crm_userinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../文件转存点/22期/s22-24权限进阶/s22day24/rbac/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/memory_revers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/templates/user_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/templatetags/current_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../文件转存点/22期/s22-24权限进阶/s22day24/rbac/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5076">
+          <caret line="188" column="24" lean-forward="true" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3753">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/django/core/cache/backends/locmem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/ftplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="157" column="25" lean-forward="true" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/cmd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1901">
+          <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="362" column="39" lean-forward="true" selection-start-line="362" selection-start-column="39" selection-end-line="362" selection-end-column="39" />
+          <folding>
+            <element signature="e#220#229#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/bz2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1944">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/django/conf/global_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/python/Lib/site-packages/django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/pagers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/views/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

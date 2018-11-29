@@ -13,6 +13,9 @@ class Menu(models.Model):
     def __str__(self):
         return self.title
 
+    class Meta:
+        verbose_name_plural = '菜单表'
+
 class Permissions(models.Model):
     """
     权限表
@@ -27,6 +30,9 @@ class Permissions(models.Model):
     def __str__(self):
         return self.title
 
+    class Meta:
+            verbose_name_plural = '权限表'
+
 
 
 class Role(models.Model):
@@ -38,6 +44,9 @@ class Role(models.Model):
 
     def __str__(self):
         return self.title
+
+    class Meta:
+        verbose_name_plural = '角色表'
 
 class UserInfo(models.Model):
     """
